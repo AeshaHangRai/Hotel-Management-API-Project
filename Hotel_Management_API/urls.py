@@ -25,6 +25,7 @@ urlpatterns = [
         'api/',
         include('rooms.urls')
     ),
+    path("api/", include("Hotel.urls")),
 ]
 # from django.contrib import admin
 # from django.urls import path
